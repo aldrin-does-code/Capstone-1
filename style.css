@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.expand-text {
+	transition: all 1s ease;
+}
+
+.expand-text:hover {
+	letter-spacing: 8px;
+}
+
+.text-dark {
+	color: black !important;
+}
+
+.bg-md-dark {
+	background-color: #f2f2f2;
+}
+
+.fix {
+	min-height: 200px;
+	border-width: 10px;
+}
+
+.gotham {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.gotham-black {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+	height: 80px;
+	z-index: 10;
+}
+
+.navbar-brand {
+	letter-spacing: 3px;
+}
+
+.landing-wrapper {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.jumbotron {
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.jumbotron video {
+	min-width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.jumbotron:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.85);
+}
+
+.intro {
+	z-index: 10;
+}
+
+.intro h1 {
+	font-weight: bold;
+}
+
+.intro h2 {
+	font-weight: bold;
+}
+
+.intro p {
+	line-height: 40px;
+}
+
+.border {
+	border-width: 10px;
+}
+
+#aboutMe {
+	height: auto;
+}
+
+#aboutMe h1 {
+	font-weight: bold;
+}
+
+#aboutMe img {
+	max-width: 270px;
+}
+
+#services {
+	height: auto;
+}
+
+#services h1 {
+	font-weight: bold;
+}
+
+#myProjects {
+	height: auto;
+}
+
+#myProjects h1 {
+	font-weight: bold;
+}
+
+footer {
+	height: 55px;
+	background: black;
+}
+
+footer span {
+	letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+	border: 0;
+}
+
+.service-img {
+	height: 200px;
+	width: 200px;
+}
+
+iframe {
+	filter: grayscale(100%);
+	transition: all 0.5s ease;
+	min-height: 365px;
+}
+
+iframe:hover {
+	filter: grayscale(0%);
+}
+
+form button {
+	letter-spacing: 3px;
+}
+
+.my-image {
+	filter: grayscale(100%);
+	transition: all 1s ease;
+}
+
+.my-image:hover {
+	filter: grayscale(0%);
+}
+
+.project-card {
+	transition: all 0.75s ease;
+}
+
+.project-card:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
